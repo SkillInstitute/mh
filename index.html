@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <title>MoneyHelp India | WhatsApp Financial Support</title>
+    <meta name="description" content="Need financial help? Chat with us on WhatsApp. Free guidance, debt relief support, and emergency assistance. 100% confidential.">
+    <meta name="keywords" content="money help, financial assistance, WhatsApp support, debt help, emergency funds, free guidance">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Facebook / Meta safe meta -->
+    <meta property="og:title" content="MoneyHelp India | WhatsApp Support for Financial Help">
+    <meta property="og:description" content="Struggling with money? Chat with us on WhatsApp for free, confidential guidance. We're here to help.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://placehold.co/400x400/25D366/ffffff?text=WhatsApp+Help">
+    <meta property="og:url" content="#">
+    
+    <!-- Preconnect & Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        /* ============================================
+           WHATSAPP MONEY HELP LANDING PAGE
+           Mobile-first, high conversion, ad compliant
+           WhatsApp green theme + trust elements
+           ============================================ */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #e8f0ea;
+            font-family: 'Inter', sans-serif;
+            color: #1e2a2a;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        .app-container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: #ffffff;
+            min-height: 100vh;
+            box-shadow: 0 0 40px rgba(0,0,0,0.05);
+            position: relative;
+        }
+
+        /* WhatsApp floating badge */
+        .whatsapp-badge {
+            background: #25D366;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 50px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .hero {
+            padding: 2rem 1.5rem 1.5rem;
+            text-align: center;
+        }
+
+        /* logo/brand */
+        .safe-logo {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: #f0f9f0;
+            padding: 8px 20px;
+            border-radius: 80px;
+            margin-bottom: 1rem;
+            border: 1px solid #c8e6d9;
+        }
+        .help-icon {
+            font-size: 1.7rem;
+            color: #25D366;
+        }
+        .logo-text {
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 700;
+            font-size: 1.8rem;
+            letter-spacing: 1px;
+            color: #1e6b52;
+        }
+        .logo-sub {
+            font-size: 0.7rem;
+            font-weight: 400;
+            color: #5f8b7c;
+        }
+
+        .tagline {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: #25a366;
+            background: #e6f4ea;
+            display: inline-block;
+            padding: 5px 14px;
+            border-radius: 50px;
+            margin: 0.5rem 0 0.8rem;
+        }
+
+        /* Trust row */
+        .trust-row {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 1.2rem 0 1rem;
+            flex-wrap: wrap;
+        }
+        .trust-badge {
+            text-align: center;
+            background: #ffffff;
+            border-radius: 60px;
+            padding: 6px 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+            border: 1px solid #e0efE5;
+        }
+        .trust-badge i {
+            font-size: 1.2rem;
+            color: #25D366;
+            margin-right: 6px;
+        }
+        .trust-badge span {
+            font-weight: 500;
+            font-size: 0.7rem;
+            color: #3a5a4e;
+        }
+
+        /* Main message card */
+        .message-card {
+            background: #ffffff;
+            border-radius: 32px;
+            padding: 1.5rem;
+            margin: 0.8rem 0 1rem;
+            box-shadow: 0 12px 28px rgba(0,0,0,0.04), 0 0 0 1px #e6f0ea;
+        }
+        .help-headline {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.9rem;
+            font-weight: 500;
+            color: #1e6b52;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 0.8rem;
+        }
+        .whatsapp-icon-large {
+            color: #25D366;
+            font-size: 2rem;
+            animation: gentlePulse 1.8s infinite ease;
+        }
+        @keyframes gentlePulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.08); opacity: 0.9; }
+        }
+        .description-text {
+            font-size: 0.9rem;
+            line-height: 1.5;
+            color: #4a5a52;
+            font-weight: 400;
+            margin: 0.7rem 0;
+        }
+
+        .stats-light {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            background: #f4faf6;
+            padding: 0.6rem 1rem;
+            border-radius: 60px;
+            width: fit-content;
+            margin: 1rem auto;
+            font-size: 0.7rem;
+            color: #4a6b5e;
+            flex-wrap: wrap;
+        }
+        .stats-light i {
+            color: #25D366;
+            margin-right: 4px;
+        }
+
+        /* Promise card */
+        .promise-card {
+            background: #fefef9;
+            border-radius: 28px;
+            padding: 1.2rem;
+            margin: 1rem 0;
+            border: 1px solid #e0e7df;
+        }
+        .promise-text {
+            font-size: 0.88rem;
+            line-height: 1.5;
+            color: #3f4a42;
+        }
+        .promise-text strong {
+            color: #1e6b52;
+            font-weight: 600;
+        }
+
+        /* MAIN WHATSAPP CTA BUTTON */
+        .whatsapp-btn {
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            border: none;
+            color: white;
+            padding: 16px 20px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            border-radius: 60px;
+            width: 100%;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            box-shadow: 0 10px 20px rgba(37,211,102,0.25);
+            margin: 1rem 0 0.5rem;
+            text-decoration: none;
+        }
+        .whatsapp-btn i {
+            font-size: 1.5rem;
+        }
+        .whatsapp-btn:hover {
+            transform: scale(0.98);
+            background: linear-gradient(135deg, #20bd5c 0%, #0e6e63 100%);
+            box-shadow: 0 6px 16px rgba(37,211,102,0.3);
+        }
+
+        /* secondary CTA */
+        .secondary-btn {
+            background: transparent;
+            border: 1px solid #c8e0d4;
+            color: #2c7a64;
+            padding: 12px 18px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            border-radius: 50px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s;
+            text-decoration: none;
+            margin-top: 0.5rem;
+        }
+        .secondary-btn:hover {
+            background: #f0f9f0;
+            border-color: #25D366;
+            color: #0f5c4a;
+        }
+
+        /* Quote */
+        .quote-classic {
+            font-style: italic;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.9rem;
+            background: #fafef7;
+            padding: 0.7rem 1rem;
+            border-radius: 40px;
+            border-left: 3px solid #25D366;
+            color: #4a6b5a;
+            margin: 1rem 0;
+        }
+
+        /* Emergency info */
+        .emergency-note {
+            background: #fff9ed;
+            border-radius: 24px;
+            padding: 1rem;
+            margin: 1rem 0;
+            border: 1px solid #ffe6b3;
+            font-size: 0.8rem;
+            color: #b86f2c;
+        }
+
+        /* FAQ simple */
+        .faq-item {
+            background: #fefefc;
+            border-radius: 20px;
+            margin-bottom: 0.8rem;
+            border: 1px solid #e2ece5;
+            overflow: hidden;
+        }
+        .faq-question {
+            padding: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: #2a5a4c;
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            padding: 0 1rem;
+            background: #ffffff;
+            font-size: 0.8rem;
+            color: #6b7b6e;
+            line-height: 1.45;
+        }
+        .faq-item.active .faq-answer {
+            max-height: 200px;
+            padding: 0 1rem 1rem 1rem;
+        }
+        .faq-question i {
+            transition: transform 0.2s;
+            color: #25D366;
+        }
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+
+        footer {
+            font-size: 0.6rem;
+            color: #9bb7aa;
+            text-align: center;
+            padding: 1.5rem 1rem 2rem;
+            border-top: 1px solid #e0ece3;
+            margin-top: 1rem;
+        }
+        .legal-note {
+            background: #f9fefb;
+            border-radius: 20px;
+            padding: 0.6rem;
+            font-size: 0.65rem;
+            margin-top: 1rem;
+            color: #7f9c8c;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .mt-2 {
+            margin-top: 0.8rem;
+        }
+        .flex-center {
+            display: flex;
+            justify-content: center;
+        }
+        .whatsapp-number {
+            background: #eef3ef;
+            border-radius: 50px;
+            padding: 4px 12px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: #128C7E;
+            display: inline-block;
+        }
+
+        ::selection {
+            background: #c8e6d9;
+            color: #1a4a3e;
+        }
+
+        @media (max-width: 450px) {
+            .hero {
+                padding: 1.5rem 1.2rem;
+            }
+            .help-headline {
+                font-size: 1.6rem;
+            }
+            .whatsapp-btn {
+                font-size: 1rem;
+                padding: 14px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <div class="hero">
+            <!-- WhatsApp brand badge -->
+            <div class="whatsapp-badge">
+                <i class="fab fa-whatsapp"></i> Official WhatsApp Support
+            </div>
+            
+            <div class="safe-logo">
+                <i class="fas fa-hand-holding-heart help-icon"></i>
+                <span class="logo-text">MoneyHelp</span>
+                <span class="logo-sub">India</span>
+            </div>
+            <div class="tagline">
+                <i class="fab fa-whatsapp"></i> CHAT WITH US ON WHATSAPP
+            </div>
+            
+            <!-- Trust badges -->
+            <div class="trust-row">
+                <div class="trust-badge">
+                    <i class="fas fa-comment-dots"></i> <span>Instant Chat</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-lock"></i> <span>100% Private</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-clock"></i> <span>Fast Response</span>
+                </div>
+            </div>
+
+            <!-- Main message card -->
+            <div class="message-card">
+                <div class="help-headline">
+                    <span>Need Help?</span>
+                    <i class="fab fa-whatsapp whatsapp-icon-large"></i>
+                    <span>We're Here</span>
+                </div>
+                <div class="description-text">
+                    <strong>Struggling with money?</strong> You're not alone. Our team provides free, confidential financial guidance via WhatsApp. Whether it's debt relief, emergency funds, or budgeting help — we listen and guide you.
+                </div>
+                <div class="stats-light">
+                    <span><i class="fas fa-users"></i> 8,500+ helped</span>
+                    <span><i class="fab fa-whatsapp"></i> WhatsApp support</span>
+                    <span><i class="fas fa-star"></i> Free & trusted</span>
+                </div>
+                
+                <!-- MAIN WHATSAPP BUTTON - leads to chat with pre-filled message -->
+                <a href="https://wa.me/918696854135?text=Sir%20i%20need%20help%20for%20money" 
+                   class="whatsapp-btn" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   id="whatsappLeadBtn">
+                    <i class="fab fa-whatsapp"></i> CHAT ON WHATSAPP
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                
+                <div class="text-center mt-2">
+                    <span class="whatsapp-number"><i class="fab fa-whatsapp"></i> +91 86968 54135</span>
+                </div>
+                
+                <div class="quote-classic">
+                    <i class="fas fa-quote-left" style="margin-right: 5px; opacity: 0.6;"></i> 
+                    "Just send 'Hi' on WhatsApp — we'll reply within minutes. No judgment, just real help."
+                </div>
+            </div>
+
+            <!-- Promise card -->
+            <div class="promise-card">
+                <div class="promise-text">
+                    <strong><i class="fas fa-handshake"></i> Our promise to you</strong><br>
+                    ✔️ Completely free guidance<br>
+                    ✔️ No hidden charges ever<br>
+                    ✔️ Confidential conversations<br>
+                    ✔️ Real human support, not bots
+                </div>
+            </div>
+
+            <!-- Quick reply option card -->
+            <div class="message-card" style="background: #f6fef9;">
+                <h3 style="font-size: 1.1rem; color: #1e6b52; text-align: center;">
+                    <i class="fab fa-whatsapp"></i> Send us a WhatsApp message
+                </h3>
+                <div class="description-text" style="text-align: center; font-size: 0.85rem;">
+                    Tap the button above or click the pre-filled message links below:
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 12px;">
+                    <a href="https://wa.me/918696854135?text=Sir%20i%20need%20help%20for%20money" 
+                       target="_blank" 
+                       class="secondary-btn" 
+                       style="justify-content: center;">
+                        <i class="fab fa-whatsapp"></i> "Sir i need help for money"
+                    </a>
+                    <a href="https://wa.me/918696854135?text=Hi%2C%20I%20need%20financial%20guidance.%20Please%20help." 
+                       target="_blank" 
+                       class="secondary-btn" 
+                       style="justify-content: center;">
+                        <i class="fas fa-comment"></i> "Need financial guidance"
+                    </a>
+                </div>
+            </div>
+
+            <!-- Emergency / important note (meta safe) -->
+            <div class="emergency-note">
+                <i class="fas fa-exclamation-triangle"></i> <strong>Important:</strong> We provide free financial education, debt management tips, and connect you with resources. We do not lend money or guarantee loans.
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="message-card">
+                <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color:#1e6b52;">Common questions</h3>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Is this service really free? <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Yes, 100% free. We are a community-driven financial help initiative. No fees, no subscriptions.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How quickly will I get a reply? <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Our team typically replies within 5-15 minutes on WhatsApp. We're available 10 AM to 8 PM, Monday to Saturday.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What kind of help can I expect? <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        We provide guidance on debt relief options, budgeting tips, emergency fund resources, and connect you with verified financial counselors if needed.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Is my chat private? <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Absolutely. All WhatsApp conversations are confidential. We never share your personal information.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Legal + responsible disclosure -->
+            <div class="legal-note">
+                <i class="fas fa-shield-alt"></i> This is a free financial guidance platform. We do not provide loans, credit, or investment advice. For financial emergencies, please consult a licensed professional. By messaging us, you agree to our privacy terms.
+                <br><br>
+                <i class="fas fa-heart" style="color: #25D366;"></i> Helping you regain financial peace.
+            </div>
+            
+            <footer>
+                <p>© 2026 MoneyHelp India — Free WhatsApp Support</p>
+                <p><i class="fab fa-whatsapp"></i> +91 86968 54135</p>
+                <p style="font-size: 0.55rem;">We believe everyone deserves financial guidance. No spam, no sales calls.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        // Enhanced tracking for WhatsApp clicks (optional analytics-friendly but no external)
+        const whatsappBtn = document.getElementById('whatsappLeadBtn');
+        if(whatsappBtn) {
+            whatsappBtn.addEventListener('click', function(e) {
+                // Just logging for internal tracking — no user data collected
+                console.log('WhatsApp lead click: money help request');
+                // Optional: you can store a timestamp in localStorage for conversion tracking
+                localStorage.setItem('whatsapp_click', new Date().toISOString());
+            });
+        }
+
+        // All secondary WhatsApp links also track consistently
+        const allWhatsLinks = document.querySelectorAll('a[href*="wa.me/918696854135"]');
+        allWhatsLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                console.log('WhatsApp lead generated via secondary link');
+                localStorage.setItem('whatsapp_lead_time', Date.now());
+            });
+        });
+
+        // FAQ Accordion functionality
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const questionDiv = item.querySelector('.faq-question');
+            if(questionDiv) {
+                questionDiv.addEventListener('click', () => {
+                    // Close others for clean UX
+                    faqItems.forEach(other => {
+                        if(other !== item && other.classList.contains('active')) {
+                            other.classList.remove('active');
+                        }
+                    });
+                    item.classList.toggle('active');
+                });
+            }
+        });
+
+        // Optional: prefill message click tracking (just user-friendly)
+        console.log('WhatsApp money help page loaded — ready for leads');
+    </script>
+</body>
+</html>
